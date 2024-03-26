@@ -1,0 +1,23 @@
+Documentación => https://designpatternsphp.readthedocs.io/en/latest/
+
+!!! DESIGN PATTERNS PHP !!!.- Existen 3 tipos principales de patrones de diseño:
+
+  - Creational.- Sirven para crear objetos.
+  - Structural.- Sirven para crear estructuras dentro de nuestro proyecto para facilitar 
+    la escalabilidad.
+  - Behavioral.- DE comportamiento es decir, atraves de ellos podemos hacer que nuestro
+    código funcione de una u otra manera.
+
+    Cada unos de estos 3 principales tienes sub categorias.
+
+    ! BEHAVIORAL !.-
+
+      1) Specification.- Es uno de los más usados a día de hoy, este patrón se puede usar 
+         mucho para temas de queries, cuando tenemos una app en la que nuestros usuarios 
+         pueden hacer consultas en nuestra DB es muy útil porque nos permite estructurar
+         nuestras queries sin necesidad de estar creando condiciones o switches u otros
+         tipos de condicionales, de esta forma vamos a tener cada filtro en nuestra propia
+         clase y vamos a poder usarlo indivial o agrupados.
+         Lo bueno de este patrón de diseño es que podemos usar operadores lógicos, es decir,
+         nosotros podemos tener distintas especificaciones y poder hacer operaciones como
+         and(&&) or(||) y not.
