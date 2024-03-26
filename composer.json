@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Codenip\\": "src/"
+            "App\\": "src/"
         }
     },
     "autoload-dev": {
